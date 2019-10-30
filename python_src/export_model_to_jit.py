@@ -1,5 +1,4 @@
 import torch
-from torchvision import models
 
 
 def main():
@@ -21,7 +20,11 @@ def main():
 def define_pretrained_mobilenetV2():
     r'''
         Defines the Mobilenet V2 model with
-        pretrained parameters on Imagenet
+        pretrained parameters on ImageNet.
+        Top 1 Accuracy:     71.88%.
+        Top 5 Accuracy:     90.28%
+
+        Inference Latency:  143ms
 
         Args:
             N/A
@@ -29,7 +32,46 @@ def define_pretrained_mobilenetV2():
         Examples:
             >>> model = define_pretrained_mobilenetV2()
     '''
-    return models.mobilenet_v2(pretrained=True)
+    import torchvision
+    return torchvision.models.mobilenet_v2(pretrained=True)
+
+
+def define_pretrained_mnasnet1_0():
+    r'''
+        Defines the MnasNet 1_0 model with
+        pretrained parameters on ImageNet.
+        Top 1 Accuracy:     73.1%.
+        Top 5 Accuracy:     91.6%
+
+        Inference Latency:  103ms
+        
+        Args:
+            N/A
+        
+        Examples:
+            >>> model =  define_pretrained_mnasnet1_0()
+    '''
+    import torchvision
+    return torchvision.models.mnasnet1_0(pretrained=True)
+
+
+def define_pretrained_mnasnet0_5():
+    r'''
+        Defines the MnasNet 0_5 model with
+        pretrained parameters on ImageNet.
+        Top 1 Accuracy:     67.4%.
+        Top 5 Accuracy:     N/A
+
+        Inference Latency:  83ms
+        
+        Args:
+            N/A
+        
+        Examples:
+            >>> model =  define_pretrained_mnasnet0_5()
+    '''
+    import torchvision
+    return torchvision.models.mnasnet0_5(pretrained=True)
 
 
 def export_to_traced_script(model, _FILENAME):
