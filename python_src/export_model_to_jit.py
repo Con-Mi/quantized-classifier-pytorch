@@ -1,6 +1,3 @@
-import torch
-
-
 def main():
     r'''
         The main loop of the file. Initialize the
@@ -12,9 +9,9 @@ def main():
         Examples:
             >>> main()
     '''
-    _MODEL = define_pretrained_mobilenetV2()
-    _FILENAME = "./jit_models_bin/traced_mobilenetV2.pt"
-    export_to_traced_script(_MODEL, _FILENAME)
+    _MODEL_ = define_pretrained_mnasnet0_5()
+    _FILENAME_ = "./jit_models_bin/traced_mnasnet0_5.pt"
+    export_to_traced_script(_MODEL_, _FILENAME_)
 
 
 def define_pretrained_mobilenetV2():
@@ -33,6 +30,8 @@ def define_pretrained_mobilenetV2():
             >>> model = define_pretrained_mobilenetV2()
     '''
     import torchvision
+
+
     return torchvision.models.mobilenet_v2(pretrained=True)
 
 
@@ -52,6 +51,8 @@ def define_pretrained_mnasnet1_0():
             >>> model =  define_pretrained_mnasnet1_0()
     '''
     import torchvision
+
+
     return torchvision.models.mnasnet1_0(pretrained=True)
 
 
@@ -71,6 +72,8 @@ def define_pretrained_mnasnet0_5():
             >>> model =  define_pretrained_mnasnet0_5()
     '''
     import torchvision
+
+
     return torchvision.models.mnasnet0_5(pretrained=True)
 
 
@@ -90,10 +93,14 @@ def export_to_traced_script(model, _FILENAME):
         Examples:
             >>> export_to_traced_script(squeeze_model, "./jit_models/traced_squeezenet_model.pt") 
     '''
+    import torch
+
+
     dummy_input = torch.randn(1, 3, 224, 224)
 
     traced_script_module = torch.jit.trace(model.eval(), dummy_input)
     traced_script_module.save(_FILENAME)
+
 
 
 if __name__ == "__main__":

@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

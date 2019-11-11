@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/engine.dir/src/example.cpp.o -c /home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/src/example.cpp",
+  "file": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/src/example.cpp"
+},
+{
+  "directory": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug",
+  "command": "/usr/bin/c++  -DAT_PARALLEL_OPENMP=1 -DENABLE_DOCTEST_IN_LIBRARY -D_THP_CORE -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest -isystem /home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include -isystem /home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include/torch/csrc/api/include -isystem /usr/local/include/opencv4  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -D_GLIBCXX_USE_CXX11_ABI=1 -std=c++1z -o CMakeFiles/main.dir/app/main.cpp.o -c /home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/app/main.cpp",
+  "file": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/app/main.cpp"
+},
+{
+  "directory": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/main.cpp",
+  "file": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/main.cpp"
+},
+{
+  "directory": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include -I/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/unit_tests.dir/dummy.cpp.o -c /home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/dummy.cpp",
+  "file": "/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/dummy.cpp"
+}
+]

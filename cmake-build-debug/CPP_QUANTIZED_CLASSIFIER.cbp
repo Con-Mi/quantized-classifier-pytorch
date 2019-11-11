@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPP_QUANTIZED_CLASSIFIER"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\include\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\quick_test_pytorch\;CMake Files\..\..\quick_test_pytorch\libtorch\;CMake Files\..\..\quick_test_pytorch\libtorch\share\;CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\;CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Torch\;CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\;CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\public\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/CMakeFiles/engine.dir/engine.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/CMakeFiles/engine.dir/engine.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add option="-D_THP_CORE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add option="-D_THP_CORE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/quick_test_pytorch/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 unit_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests/fast">
+				<Option output="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_DOCTEST_IN_LIBRARY"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include"/>
+					<Add directory="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest/doctest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 unit_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coverage">
+				<Option working_dir="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 coverage"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/app/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake-build-debug/CMakeFiles/engine.dir/src/example.cpp.o">
+			<Option target="main"/>
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/src/example.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/dummy.cpp">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/main.cpp">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/Colors.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/ConfigSafeGuards.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/Doctest.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/Documentation.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/LTO.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/Misc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/cmake/Warnings.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/include/exampleConfig.h.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/../../quick_test_pytorch/libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\quick_test_pytorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
