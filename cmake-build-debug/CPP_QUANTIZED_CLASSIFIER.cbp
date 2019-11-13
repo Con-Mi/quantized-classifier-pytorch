@@ -267,6 +267,9 @@
 			<Option target="main"/>
 			<Option target="unit_tests"/>
 		</Unit>
+		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/external/doctest.h">
+			<Option target="engine"/>
+		</Unit>
 		<Unit filename="/home/s27909/projects/deep_learning_prjs/_pytorch/_quantized_classifier/quantized-classifier-pytorch/src/example.cpp">
 			<Option target="engine"/>
 		</Unit>

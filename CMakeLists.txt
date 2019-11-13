@@ -47,7 +47,7 @@ find_package( Torch REQUIRED )
 # --------------------------------------------------------------------------------
 set(SOURCES          # All .cpp files in src/
     src/example.cpp
-)
+        external/doctest.h)
 set(TESTFILES        # All .cpp files in tests/
     tests/main.cpp
 )

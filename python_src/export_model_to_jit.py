@@ -1,16 +1,20 @@
-def main():
+def _start():
     r'''
         The main loop of the file. Initialize the
-        variables and export the model
+        variables and export the model into the directory
+        ./jit_model_bin
 
         Args:
             N/A
         
         Examples:
-            >>> main()
+            >>> _start()
     '''
+    _MODEL_DIRECTORIES_ = "../jit_models_bin"
+
     _MODEL_ = define_pretrained_mnasnet0_5()
-    _FILENAME_ = "./jit_models_bin/traced_mnasnet0_5.pt"
+    _FILENAME_ = _MODEL_DIRECTORIES_ + "/traced_mnasnet0_5.pt"
+
     export_to_traced_script(_MODEL_, _FILENAME_)
 
 
@@ -85,10 +89,10 @@ def export_to_traced_script(model, _FILENAME):
         C++
 
         Args:
-            model:  a model defined in a class module in PyTorch
-                    or as a pretrained model from torchvision
-            FILENAME:   the name of the file that is going to be
-                        saved as. As descriptive as possible.
+            @param model:       a model defined in a class module in PyTorch
+                                or as a pretrained model from torchvision
+            @:param FILENAME:   the name of the file that is going to be
+                                saved as. As descriptive as possible.
 
         Examples:
             >>> export_to_traced_script(squeeze_model, "./jit_models/traced_squeezenet_model.pt") 
@@ -104,4 +108,4 @@ def export_to_traced_script(model, _FILENAME):
 
 
 if __name__ == "__main__":
-    main()
+    _start()
